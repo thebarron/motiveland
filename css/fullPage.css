@@ -198,15 +198,15 @@ a {
 
 /* SERVICES SECTION 1 */
 
-#section1 .fp-tableCell {
-	display: inline;
-}
-
 .services {
 	height: 100vh;
 	position: relative;
 	background-color: #dadada;
 	width: 100%;
+}
+
+.services .fp-tableCell {
+	vertical-align: initial;
 }
 
 .servicesTop {
