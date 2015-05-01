@@ -260,8 +260,29 @@ a {
 	text-align: right;
 }
 
+/* Responsive */
 
+@media (max-width: 600px) {
+	.leftImage {
+		height: 400px;
+	}
+	.rightImage {
+		height: 400px;
+	}
 
+	.projectDescription {
+		width: 80%;
+		padding: 50px 10%;
+	}
+
+	.showcase {
+		height: 300px; 
+	}
+
+	.descriptionImageText {
+		display: none;
+	}
+}
 
 
 
