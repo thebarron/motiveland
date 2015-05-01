@@ -732,34 +732,16 @@ figure.effect-alec:hover p {
 	}
 
 	.servicesTop {
-		height: 50vh;
+		height: 25vh;
+		background-position: left;
 	}
 
 	.servicesHead {
-		padding-top: 30vh;
+		padding-top: 15vh;
 	}
 
 	.iconsHolder {
 		width: 100%;
-	}
-
-	.iconsHolder ul li {
-		padding: 2%;
-		width: 14%;
-	}
-
-	.iconsHolder ul li:first-child {
-		padding: 2%;
-		width: 14%;
-	}
-
-	.iconsHolder ul li:last-child {
-		padding: 2%;
-		width: 14%;
-	}
-
-	.servicesTop {
-		background-position: left;
 	}
 
 	.servicesHead {
@@ -772,34 +754,41 @@ figure.effect-alec:hover p {
 	.servicesHead h1 {
 		text-align: center;
 		width: 90%;
+		font-size: 1.5em;
 	}
 
 	.servicesHead h3 {
-		text-align: center;
-		width: 90%;
+		display: none;
+	}
+
+	.iconsHolder ul li:first-child {
+		display: inline-block;
+		padding-left: 0;
+		padding-top: 5vh;
+	}
+
+	.iconsHolder ul li:last-child {
+		display: inline-block;
+		padding-right: 0;
+		padding-top: 5vh;
 	}
 
 	.iconsHolder ul li {
 		display: block;
-		width: 90%;
-		padding-left: 5%;
-		padding-right: 5%;
-		padding-top: 10%;
+		width: 33.3333%;
+		height: 32.5vh;
+		padding: 0;
+		float: left;
+		padding-top: 5vh;
+		box-shadow: inset 0 0 5px rgba(255,255,255,.3);
 	}
 
-	.iconsHolder ul li:first-child {
-		width: 90%;
-		padding-left: 5%;
-		padding-right: 5%;
-		padding-top: 10%;
+	.iconsHolder ul li h2 {
+		font-size: 1em;
 	}
 
-	.iconsHolder ul li:last-child {
-		width: 90%;
-		padding-left: 5%;
-		padding-right: 5%;
-		padding-top: 10%;
-		padding-bottom: 40%;
+	.iconsHolder ul li p {
+		font-size: .9em;
 	}
 
 	.iconsHolder ul li img {
@@ -812,10 +801,6 @@ figure.effect-alec:hover p {
 
 	.work {
 		width: 100%;
-	}
-
-	.effect-work h3 {
-		padding-top: 60%;
 	}
 
 	.team h3 {
