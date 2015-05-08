@@ -109,6 +109,9 @@ a {
   background-position: center;
   background-size: cover; }
 
+.headerImage_iconArtworks {
+background-image: url(../img/iconArtworksHeader.jpg); }
+
 .headerImage_fitleaf {
   background-image: url(../img/fitleafHeader.png); }
 
@@ -143,6 +146,13 @@ a {
   float: left;
   width: 50%; }
 
+.leftImage_iconArtworks {
+  background-image: url(../img/iconArtworksLeft.png); }
+
+.leftImage_iconArtworks2 {
+  background-image: url(../img/iconArtworksLeft2.jpg); }
+
+
 .leftImage_fitleaf {
   background-image: url(../img/fitleafLeft.png); }
 
@@ -159,6 +169,12 @@ a {
   float: right;
   width: 50%; }
 
+.rightImage_iconArtworks {
+  background-image: url(../img/iconArtworksRight.png); }
+
+.rightImage_iconArtworks2 {
+  background-image: url(../img/iconArtworksRight2.jpg); }
+
 .rightImage_fitleaf {
   background-image: url(../img/fitleafRight.png); }
 
@@ -173,6 +189,16 @@ a {
   height: 600px;
   background-position: center;
   background-size: cover; }
+
+.showcase_iconArtworks {
+  background-image: url(../img/iconArtworksShowcase.jpg); }
+
+.showcase_iconArtworks2 {
+  background-image: url(../img/iconArtworksShowcase2.jpg); 
+  height: 900px;}
+
+.showcase_iconArtworks3 {
+  background-image: url(../img/iconArtworksShowcase3.jpg); }
 
 .showcase_fitleaf1 {
   background-image: url(../img/fitleafOutline.png); }
@@ -197,6 +223,14 @@ a {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%; }
+
+  .siteShowcaseIconArtworks img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 100%; }
+
 
 /* DESCRIPTION ON LEFT, IMAGE RIGHT */
 .descriptionImage {
