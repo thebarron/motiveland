@@ -107,13 +107,20 @@ a {
 .headerImage {
   height: 600px;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat; }
 
-.headerImage_iconArtworks {
-background-image: url(../img/iconArtworksHeader.jpg); }
+.headerImage_niall {
+background-image: url(../img/niallHeader.jpg); }
+
+.headerImage_fitleaf {
+  background-image: url(../img/niallheader.jpg); }
 
 .headerImage_fitleaf {
   background-image: url(../img/fitleafHeader.png); }
+
+.headerImage_stark {
+  background-image: url(../img/starkHeader.jpg); }
 
 .headerImage_goldworks {
   background-image: url(../img/goldworksHeader.png); }
@@ -152,6 +159,8 @@ background-image: url(../img/iconArtworksHeader.jpg); }
 .leftImage_iconArtworks2 {
   background-image: url(../img/iconArtworksLeft2.jpg); }
 
+.leftImage_niall {
+  background-image: url(../img/niallLeft.jpg); }
 
 .leftImage_fitleaf {
   background-image: url(../img/fitleafLeft.png); }
@@ -174,6 +183,9 @@ background-image: url(../img/iconArtworksHeader.jpg); }
 
 .rightImage_iconArtworks2 {
   background-image: url(../img/iconArtworksRight2.jpg); }
+
+.rightImage_niall {
+  background-image: url(../img/niallRight.jpg); }
 
 .rightImage_fitleaf {
   background-image: url(../img/fitleafRight.png); }
@@ -200,6 +212,14 @@ background-image: url(../img/iconArtworksHeader.jpg); }
 .showcase_iconArtworks3 {
   background-image: url(../img/iconArtworksShowcase3.jpg); }
 
+.showcase_niallShowcase {
+  background-image: url(../img/niallShowcase.jpg); 
+  height: 900px;}
+
+.showcase_niallShowcase2 {
+  background-image: url(../img/niallShowcase2.jpg); 
+  height: 900px;}
+
 .showcase_fitleaf1 {
   background-image: url(../img/fitleafOutline.png); }
 
@@ -208,6 +228,10 @@ background-image: url(../img/iconArtworksHeader.jpg); }
 
 .showcase_fitleaf3 {
   background-image: url(../img/fitleafCenterCup.png); }
+
+.showcase_stark {
+  background-image: url(../img/starkShowcase.jpg); 
+  height: 900px;}
 
 .showcase_goldworks {
   background-image: url(../img/goldworksLogoGuides.png); }
@@ -224,9 +248,16 @@ background-image: url(../img/iconArtworksHeader.jpg); }
   padding-left: 10%;
   padding-right: 10%; }
 
-  .siteShowcaseIconArtworks img {
+.siteShowcaseIconArtworks img {
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 100%; }
+
+.siteShowcaseNiall3 img {
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 0%;
   padding-right: 0%;
   width: 100%; }
