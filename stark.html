@@ -7,12 +7,23 @@
     <link rel="stylesheet" href="css/workStyle.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400' rel='stylesheet' type='text/css'>
 
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/myScripts.js"></script>
 
   </head>
 
   <body>
+    <div class="mobileNav">
+      <a href="./index.html#work">
+        <div id="logoWrapId" class="logoWrap">
+          <div class="motiveLogo"></div>
+          <div class="backArrow"></div>
+        </div>
+      </a>
+    </div>
+    
     <div class="navigation">
       <a href="./index.html">
         <div id="logoWrapId" class="logoWrap">
@@ -21,11 +32,11 @@
         </div>
       </a>
       <ul id="menu">
-          <li><a href="#studio">studio</a></li>
-          <li><a href="#services">services</a></li>
-          <li><a href="#work">work</a></li>
-          <li><a href="#team">team</a></li>
-          <li><a href="#contact">contact</a></li>
+          <li><a href="index.html#studio">studio</a></li>
+          <li><a href="index.html#services">services</a></li>
+          <li class="active"><a href="index.html#work">work</a></li>
+          <li><a href="index.html#team">team</a></li>
+          <li><a href="index.html#contact">contact</a></li>
       </ul>
     </div>
 
@@ -63,18 +74,22 @@
     </section>
 
     <section class="previousAndNext">
-      <div class="previousWork">
-        <div class="imageGradient">
-          <h3>previous</h3>
-          <h1>Sock 101</h1>
+      <a href="iconArtworks.html">
+        <div class="previousWork workIconartworks">
+          <div class="imageGradient">
+            <h3>previous</h3>
+            <h1>Icon Artworks</h1>
+          </div>
         </div>
-      </div>
-      <div class="nextWork">
-        <div class="imageGradient">
-          <h3>next</h3>
-          <h1>Envy Gaming</h1>
+      </a>
+      <a href="goldworks.html">
+        <div class="nextWork workGoldworks">
+          <div class="imageGradient">
+            <h3>next</h3>
+            <h1>GoldWorks</h1>
+          </div>
         </div>
-      </div>
+      </a>
     </section>
   </body>
 </html>

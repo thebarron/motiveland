@@ -32,6 +32,14 @@ a {
   padding-right: 5%;
   position: fixed; }
 
+.navigation {
+    display: inline;
+  }
+
+  .mobileNav {
+    display: none;
+  }
+
 /* Logo to arrow */
 .fixedWrap {
   position: fixed;
@@ -114,16 +122,22 @@ a {
 background-image: url(../img/niallHeader.jpg); }
 
 .headerImage_fitleaf {
-  background-image: url(../img/niallheader.jpg); }
+  background-image: url(../img/niallHeader.jpg); }
+
+.headerImage_envy {
+  background-image: url(../img/envyHeader.jpg); }
+
+.headerImage_iconArtworks {
+  background-image: url(../img/iconArtworksHeader.jpg); }
 
 .headerImage_fitleaf {
-  background-image: url(../img/fitleafHeader.png); }
+  background-image: url(../img/fitleafHeader.jpg); }
 
 .headerImage_stark {
   background-image: url(../img/starkHeader.jpg); }
 
 .headerImage_goldworks {
-  background-image: url(../img/goldworksHeader.png); }
+  background-image: url(../img/goldworksHeader.jpg); }
 
 /* PROJECT DESCRIPTION */
 .projectDescription {
@@ -162,11 +176,14 @@ background-image: url(../img/niallHeader.jpg); }
 .leftImage_niall {
   background-image: url(../img/niallLeft.jpg); }
 
+.leftImage_envy {
+  background-image: url(../img/envyLeft.jpg); }
+
 .leftImage_fitleaf {
   background-image: url(../img/fitleafLeft.png); }
 
 .leftImage_fitleaf2 {
-  background-image: url(../img/fitleafLeft2.png); }
+  background-image: url(../img/fitleafLeft2.jpg); }
 
 .leftImage_goldworks {
   background-image: url(../img/goldworksZoom.png); }
@@ -186,6 +203,9 @@ background-image: url(../img/niallHeader.jpg); }
 
 .rightImage_niall {
   background-image: url(../img/niallRight.jpg); }
+
+.rightImage_envy {
+  background-image: url(../img/envyRight.jpg); }
 
 .rightImage_fitleaf {
   background-image: url(../img/fitleafRight.png); }
@@ -216,6 +236,9 @@ background-image: url(../img/niallHeader.jpg); }
   background-image: url(../img/niallShowcase.jpg); 
   height: 900px;}
 
+.showcase_envyShowcase {
+  background-image: url(../img/envyShowcase.jpg);}
+
 .showcase_niallShowcase2 {
   background-image: url(../img/niallShowcase2.jpg); 
   height: 900px;}
@@ -227,7 +250,7 @@ background-image: url(../img/niallHeader.jpg); }
   background-image: url(../img/fitleafPackaging.jpg); }
 
 .showcase_fitleaf3 {
-  background-image: url(../img/fitleafCenterCup.png); }
+  background-image: url(../img/fitleafCenterCup.jpg); }
 
 .showcase_stark {
   background-image: url(../img/starkShowcase.jpg); 
@@ -256,6 +279,13 @@ background-image: url(../img/niallHeader.jpg); }
   width: 100%; }
 
 .siteShowcaseNiall3 img {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 100%; }
+
+.siteShowcaseEnvy2 img {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 0%;
@@ -324,9 +354,6 @@ background-image: url(../img/niallHeader.jpg); }
   background-position: center;
   background-size: cover; }
 
-.previousWorkFitleaf {
-  background-image: url(../img/iconTeaser.png); }
-
 .nextWork {
   width: 50%;
   height: 300px;
@@ -334,8 +361,24 @@ background-image: url(../img/niallHeader.jpg); }
   background-position: center;
   background-size: cover; }
 
-.nextWorkFitleaf {
-  background-image: url(../img/niallTeaser.png); }
+.workFitleaf {
+  background-image: url(../img/work-fitleaf-teaser.jpg); }
+
+.workNiall {
+  background-image: url(../img/work-niall-teaser.jpg); }
+
+.workEnvy {
+  background-image: url(../img/work-envy-teaser.jpg); }
+
+.workIconartworks {
+  background-image: url(../img/work-iconartworks-teaser.jpg); }
+
+.workStark{
+  background-image: url(../img/work-stark-teaser.jpg); }
+
+.workGoldworks {
+  background-image: url(../img/work-goldworks-teaser.jpg); }
+
 
 .previousWork h3 {
   margin: 0;
@@ -363,11 +406,21 @@ background-image: url(../img/niallHeader.jpg); }
 
 /* Responsive */
 @media (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
+
+  .mobileNav {
+    display: inline;
+  }
+
   .leftImage {
-    height: 400px; }
+    height: 400px; 
+    width: 100%; }
 
   .rightImage {
-    height: 400px; }
+    height: 400px; 
+    width: 100%; }
 
   .projectDescription {
     width: 80%;
