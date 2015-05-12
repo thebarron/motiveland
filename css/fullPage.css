@@ -391,8 +391,12 @@ a {
   margin: 0; }
 
 .effect-barron p {
+  padding: 5px 10px 5px 5px;
   font-size: 1em;
-  width: 60%; }
+  width: 60%;
+  color: #fff; 
+  background-color: rgba(200, 200, 200, 0.7); 
+  text-align: left; }
 
 figure.effect-barron figcaption {
   text-align: left; }
@@ -417,7 +421,9 @@ figure.effect-barron h4 {
   transition: transform 0.35s; }
 
 figure.effect-barron p {
+  color: #222;
   opacity: 0;
+  font-weight: 200;
   -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
   transition: opacity 0.2s, transform 0.35s; }
 
@@ -448,9 +454,13 @@ figure.effect-barron:hover p {
   margin: 0; }
 
 .effect-alec p {
+  padding: 5px 10px 5px 5px;
   font-size: 1em;
   width: 60%;
-  float: right; }
+  float: right;
+  color: #fff; 
+  background-color: rgba(200, 200, 200, 0.7); 
+  text-align: left; }
 
 figure.effect-alec figcaption {
   text-align: right; }
@@ -477,6 +487,7 @@ figure.effect-alec h4 {
 figure.effect-alec p {
   color: #222;
   opacity: 0;
+  font-weight: 200;
   -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
   transition: opacity 0.2s, transform 0.35s; }
 
@@ -569,7 +580,14 @@ figure.effect-alec:hover p {
 
   .work h3 {
     opacity: 1;
-    font-size: 1.2em; } }
+    font-size: 1.2em; } 
+
+  .effect-alec h3 {
+    padding-top: 90%;}
+
+  .effect-barron h3 {
+    padding-top: 90%;}
+  }
 @media only screen and (max-width: 600px) {
   .cbp-af-header {
     height: 40px; }
@@ -887,4 +905,4 @@ figure.effect-alec:hover p {
       -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
       transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } } }
 
-/*# sourceMappingURL=fullPage.css.map */
+

@@ -20,6 +20,13 @@ $(window).scroll(function(){
 	    $('#logoWrapId').removeClass('shift');
 	}
 
+	if ($(window).scrollTop() > 60) {
+	    $('#logoWrapIdMobile').addClass('shift');
+	} else {
+	    $('#logoWrapIdMobile').removeClass('shift');
+	}
+
+
 });
 
 
