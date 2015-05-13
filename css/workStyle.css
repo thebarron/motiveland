@@ -119,7 +119,11 @@ a {
   background-repeat: no-repeat; }
 
 .headerImage_niall {
-background-image: url(../img/niallHeader.jpg); }
+  background-image: url(../img/niallHeader.jpg); }
+
+.headerImage_idlesmart {
+  background-image: url(../img/idlesmartHeader.jpg); 
+  background-color: #FC9D19;}
 
 .headerImage_fitleaf {
   background-image: url(../img/niallHeader.jpg); }
@@ -234,6 +238,10 @@ background-image: url(../img/niallHeader.jpg); }
 
 .showcase_niallShowcase {
   background-image: url(../img/niallShowcase.jpg); 
+  height: 900px;}
+
+.showcase_idlesmartShowcase {
+  background-image: url(../img/idlesmartShowcase.jpg); 
   height: 900px;}
 
 .showcase_envyShowcase {
