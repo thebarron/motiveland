@@ -367,6 +367,9 @@ background-image: url(../img/niallHeader.jpg); }
 .workNiall {
   background-image: url(../img/work-niall-teaser.jpg); }
 
+.workIdlesmart {
+  background-image: url(../img/work-idlesmart-teaser.jpg); }
+
 .workEnvy {
   background-image: url(../img/work-envy-teaser.jpg); }
 
@@ -430,6 +433,7 @@ background-image: url(../img/niallHeader.jpg); }
     height: 300px; }
 
   .descriptionImageText {
-    display: none; } }
+    display: none; }}
 
-/*# sourceMappingURL=workStyle.css.map */
+
+

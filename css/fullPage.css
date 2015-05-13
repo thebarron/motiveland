@@ -308,6 +308,11 @@ a {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.idlesmart {
+  background-image: url("../img/work-idlesmart-teaser.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .envy {
   background-image: url("../img/work-envy-teaser.jpg");
   background-repeat: no-repeat;
@@ -516,7 +521,9 @@ figure.effect-alec:hover p {
   padding-left: 5%; }
 
 .contactText {
-  width: 45%; }
+  width: 40%; 
+  float: left;
+  padding-top: 15%}
 
 .contact a {
   color: black; }
@@ -526,9 +533,9 @@ figure.effect-alec:hover p {
 
 .miniLine {
   width: 100%;
-  border-bottom: 1px solid #444;
-  font-size: .9em;
-  font-weight: 700; }
+  font-size: 1em;
+  font-weight: 700; 
+  color: #888;}
 
 .contactText h4 {
   font-weight: 200;
@@ -540,6 +547,11 @@ figure.effect-alec:hover p {
   font-weight: 200;
   font-size: 1.4em;
   margin-top: 0; }
+
+.contactMap {
+  width: 60%;
+  float: right;
+  height: 99%; }
 
 @media only screen and (max-width: 1000px) {
   .cbp-af-header h1, .cbp-af-header nav a {
@@ -706,6 +718,9 @@ figure.effect-alec:hover p {
   .contactText h4 {
     font-size: 1.2em;
     padding-bottom: 20px; }
+
+  .contactMap {
+    display: none;}
 
   .iconsHolder ul li img:hover {
     -webkit-animation: animation 1000ms linear both;
